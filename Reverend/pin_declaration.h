@@ -56,6 +56,10 @@ BBRK - Beam Break Sensor
 #define LMTS_BELT_LINEAR_B_PIN 45
 
 
+#define ENCR_BELT_LINEAR_A_PIN 46
+#define ENCR_BELT_LINEAR_B_PIN 47
+
+
 #define POTI_ARM_PITCH_PIN A0
 #define POTI_ARM_YAW_PIN A1
 
