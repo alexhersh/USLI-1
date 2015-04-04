@@ -1,13 +1,13 @@
 typedef void (* GenericCallback)(unsigned long);
 
-class PolledUpdate {
+class Thread {
   private:
   unsigned long last_called;
   unsigned long timeout;
   GenericCallback callback;
   
   public:
-  PolledUpdate(GenericCallback function, unsigned long interval) {
+  Thread(GenericCallback function, unsigned long interval) {
     last_called = 0;
     timeout = interval;
     callback = function;
