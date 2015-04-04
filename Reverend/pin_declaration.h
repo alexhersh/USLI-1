@@ -11,6 +11,10 @@ VMON - Voltage Monitor
 BBRK - Beam Break Sensor
 */
 
+//Nothing for radio, Raspberry PI, stepper
+
+
+
 #define DCMD_IGNITER_INSERTER_INA_PIN 27
 #define DCMD_IGNITER_INSERTER_INB_PIN 28
 #define DCMD_IGNITER_INSERTER_PWM_PIN 2
@@ -47,6 +51,7 @@ BBRK - Beam Break Sensor
 #define SLND_ROCKET_HATCH_B_PIN 26
 
 
+//Should be two more limit switches now that there are no potentiometers
 #define LMTS_IGNITER_INSERTER_PIN 39
 #define LMTS_ELEVATOR_PIN 40
 #define LMTS_NOSECONE_CLOSURE_PIN 41
@@ -60,6 +65,7 @@ BBRK - Beam Break Sensor
 #define ENCR_BELT_LINEAR_B_PIN 47
 
 
+//Shouldn't be here anymore
 #define POTI_ARM_PITCH_PIN A0
 #define POTI_ARM_YAW_PIN A1
 
